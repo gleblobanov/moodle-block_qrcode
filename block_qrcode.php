@@ -79,7 +79,7 @@ class block_qrcode extends block_base {
      * @return array of applicable formats
      */
     public function applicable_formats() {
-        return array('course-view' => true, 'mod' => false, 'my' => false);
+        return array('course-view' => true, 'mod' => true, 'my' => false);
     }
 
     /**
